@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Roboto, sans-serif;
+}
+
+
+/* Header Section*/
+.header{
+    background: #1f2937;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header_logo{
+    color: white;
+    padding-left: 0.5rem;
+    font-size: 24px;
+    
+}
+
+.header_links a{
+    margin-left: 1.5rem;
+    color: white;
+    font-size: 18px;
+}
+
+/* Hero Section*/
+
+.hero_section{
+    background: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 17rem;
+    gap: 11rem;
+}
+
+.hero_section h1{
+    margin-bottom: 0.5rem;
+    width: 15rem;
+    color: white;
+}
+
+.hero_section p{
+    width: 20rem;
+    height: 3rem;
+    color: white;
+    font-style: italic;
+    font-size: smaller;
+}
+
+.button{
+    background: #3882f6;
+    width: 20%;
+    border-radius: 5px;
+    padding: 4px 1px 4px 17px;
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+}
+
+.hero_section img{
+    height: 171px;
+    width: 314px;
+}
+
+/* Card Section*/
+
+.card_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 19rem;
+    margin-top: 2rem;
+}
+
+.card_section h2{
+    margin-bottom: 1.5rem;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
+
+.card_section p{
+    width: 10rem;
+    margin-top: 0.5rem;
+}
+
+.card_section img{
+    height: 100px;
+    width: 150px;
+    border: solid 2px #3882f6;
+}
+
+
+/* Quote Section*/
+
+.quote_section{
+    background: #e5e7eb;
+    height: 18rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote_container{
+    width: 41rem;
+}
+
+.quote_text{
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+span{
+    font-style: initial;
+    font-weight: 400;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 17px;
+    padding-right: 1.25rem;
+    margin-top: 0.25rem;
+}
+
+/* Sign Up Section*/
+
+.sign-up-section{
+    height: 11rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-container{
+    background: #3882f6;
+    height: 5.5rem;
+    width: 52rem;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-up-text{
+    display: flex;
+    flex-direction: column;
+    width: 42rem;
+    color: white;
+}
+
+.sign-up-text p{
+    font-style: italic;
+    font-size: smaller;
+}
+
+.sign-up-button{
+    background: #3882f6;
+    width: 13%;
+    border-radius: 5px;
+    padding: 4px 0px 4px 0px;
+    font-size: 11px;
+    font-weight: 400;
+    color: white;
+    border: solid white 1.5px;
+    align-self: end;
+    display: flex;
+    justify-content: center;
+}
+
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1f2937;
+    height: 4rem;
+    color: white;
+    font-size: 0.75rem;
+}
